@@ -6,7 +6,11 @@ node_modules
 sass
 config.rb
 npm-debug.log
+<<<<<<< HEAD
 
 .dccache
 .dcignore
 .idea/
+=======
+.dccache
+>>>>>>> 6386cc1 (sarif: testing scanning flow with sarif file)
