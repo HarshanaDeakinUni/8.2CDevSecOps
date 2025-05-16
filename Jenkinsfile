@@ -39,6 +39,7 @@ pipeline {
                         wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-5.0.1.3006-linux.zip
                         unzip sonar-scanner-cli-5.0.1.3006-linux.zip
                         export PATH=$PATH:$(pwd)/sonar-scanner-5.0.1.3006-linux/bin
+                        
                         sonar-scanner \
                           -Dsonar.login=$SONAR_TOKEN
                     '''
